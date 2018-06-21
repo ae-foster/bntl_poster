@@ -138,6 +138,7 @@
 \newcommand{\bbR}{\mathbb{R}}
 \newcommand{\bfPsi}{\boldsymbol{\Psi}}
 \newcommand{\bfn}{\mathbf{n}}
+\newcommand{\bfd}{\mathbf{d}}
 \newcommand{\argdot}{{\,\vcenter{\hbox{\scalebox{0.5}{$\bullet$}}}\,}}%{\bullet}
 \def\indicator{\mathbf{1}}
 \newcommand{\limscale}[2]{\overset{\scriptscriptstyle{#1 \uparrow #2}}{\widesim[1.25]}}
@@ -417,7 +418,7 @@ BNTL models have \textbf{tractable inference} due to the factorisations
  \label{eq:cppf}
   \bbP_\alpha[G(\bfee_n)|\bfT_{K_n}] &=   \frac{\Gamma(d_{1,n}-\alpha)}{\Gamma(n - K_n\alpha)} \prod_{j=2}^{K_n} \frac{\Gamma(T_j - j\alpha) \Gamma(d_{j,n} - \alpha)}{\Gamma(T_j - 1 - (j-1)\alpha)\Gamma(1-\alpha)} \;,
 \end{align}
-in particular the degree sequence $\bfn_n:=(d_{1,n},\dotsc,d_{K_n})$ is a sufficient statistic for $\alpha$ conditional on $\mathbf{T}_{K_n}$.
+in particular the degree sequence $\bfd_n:=(d_{1,n},\dotsc,d_{{K_n},n})$ is a sufficient statistic for $\alpha$ conditional on $\mathbf{T}_{K_n}$.
 \vspace{16pt}
 \begin{center}
 \begin{tabular}{lll}
